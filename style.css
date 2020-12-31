@@ -1,0 +1,43 @@
+body{
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: palegoldenrod;
+   
+}
+
+.card{
+    max-width: 200px;
+    max-height: 500px;
+    padding: 5px;
+    float: left;
+    box-shadow: 5px 5px 5px 5px #4e5a48;
+    position: relative;
+    top:150px;
+
+}
+
+body>* {
+
+    margin: 10px;
+}
+
+img{
+    width: 150px;
+    height: 150px;;
+}
+
+p{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-style: italic;
+}
+#random{
+    text-align: right;
+    padding: 10px;
+    border: rgb(105, 133, 61);
+    border-radius: 10px;
+    
+}
