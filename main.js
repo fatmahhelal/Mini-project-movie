@@ -23,9 +23,7 @@ for(i;i<240;i++){
             html: $("<img>", { src: image1 })
         }));$(`.card`).append(("<br />"))
         $(`.card`).append(name_1)
-        //$(`#name${i}`).text(name_1);
-        //$(`#image_${i}`).attr("src", image1);
-        //$(`#link${i}`).attr("href",link_1)
+      
         console.log(name_1);
         console.log(image1);
       
