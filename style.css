@@ -3,6 +3,7 @@ body{
     max-width: 1000px;
     margin: 0 auto;
     background-color: palegoldenrod;
+
    
 }
 
@@ -14,12 +15,14 @@ body{
     box-shadow: 5px 5px 5px 5px #4e5a48;
     position: relative;
     top:150px;
+text-align: left;
+   
 
 }
 
 body>* {
 
-    margin: 10px;
+    margin: 30px;
 }
 
 img{
