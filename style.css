@@ -1,46 +1,59 @@
-body{
+body {
     position: relative;
     max-width: 1000px;
     margin: 0 auto;
     background-color: palegoldenrod;
-
-   
 }
 
-.card{
+.card {
     max-width: 200px;
-    max-height: 500px;
+    max-height: 400px;
     padding: 5px;
     float: left;
     box-shadow: 5px 5px 5px 5px #4e5a48;
     position: relative;
-    top:150px;
-text-align: left;
-   
-
+    top: 30px;
+    text-align: center;
+    display: inline;
 }
 
 body>* {
-
     margin: 30px;
 }
 
-img{
-    width: 150px;
-    height: 150px;;
+img {
+    width: 180px;
+    height: 220px;
 }
 
-p{
+p {
     text-align: center;
 }
-h3{
+
+h3 {
     text-align: center;
     font-style: italic;
 }
-#random{
+
+#random {
     text-align: right;
     padding: 10px;
     border: rgb(105, 133, 61);
     border-radius: 10px;
-    
+}
+
+.hea {
+    width: 180px;
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.form-control {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    height: 30px;
 }
